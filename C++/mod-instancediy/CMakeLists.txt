@@ -1,0 +1,5 @@
+CU_SET_PATH("CMAKE_MOD_NPCZY_DIR" "${CMAKE_CURRENT_LIST_DIR}")
+
+AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/Instance_Diy.cpp")
+
+AC_ADD_SCRIPT_LOADER("InstanceDiy" "${CMAKE_CURRENT_LIST_DIR}/src/loader_Instance_Diy.h")

@@ -1,0 +1,2 @@
+create table instance_diff_diy(Player int,Map smallint,Diff smallint);
+create table instance_diff_template(maxplayers smallint,diff_1 smallint,upnum_1 smallint,diff_2 smallint,upnum_2 smallint,diff_3 smallint,upnum_3 smallint);
